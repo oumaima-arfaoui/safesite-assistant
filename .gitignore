@@ -1,0 +1,19 @@
+
+# Python virtual environment
+.venv/
+venv/
+
+# Secrets
+.env
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local vector database
+chroma_db/
+faiss_index/
+
+# Environment files
+.env.*
+!.env.example
