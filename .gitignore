@@ -17,3 +17,8 @@ faiss_index/
 # Environment files
 .env.*
 !.env.example
+
+.env
+vectorstore/
+.venv/
+__pycache__/

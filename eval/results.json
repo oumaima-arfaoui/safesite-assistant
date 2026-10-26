@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "question": "Which PPE is required for concrete cutting?",
+    "expected_answer": "No universal set; PPE must be selected from the task-specific risk assessment (eye/face, hearing, respiratory depending on hazards).",
+    "answerable": true,
+    "answer": "According to the safety documents, there is no universal PPE set required for every concrete-cutting job. PPE must be selected from the task-specific risk assessment. The documents identify the following hazard-specific protections for concrete cutting:\n\n- Eye and face protection should be selected for flying particles.  \n- Hearing protection may be needed when noise exposure requires it.  \n- Respiratory protection must be selected based on the exposure assessment and local requirements; the correct type cannot be determined from this sample alone.  \n- Effective dust suppression or extraction should be used where appropriate; PPE does not replace these engineering controls.  \n\n[02_personal_protective_equipment.pdf, p.2]  \n[02_personal_protective_equipment.pdf, p.1]",
+    "latency_ms": 25572
+  },
+  {
+    "id": 2,
+    "question": "What is the maximum height before a guardrail is mandatory on a scaffold?",
+    "expected_answer": "The documents set no universal height; it depends on the governing jurisdiction and site requirements.",
+    "answerable": true,
+    "answer": "The safety documents do not specify a universal maximum height before guardrails become mandatory. According to the context, the exact height at which guardrails are required depends on the governing jurisdiction, site requirements, risk assessment, and scaffold configuration. [01_working_at_height.pdf, p.1], [04_scaffold_safety.pdf, p.1], [04_scaffold_safety.pdf, p.2]",
+    "latency_ms": 26750
+  },
+  {
+    "id": 3,
+    "question": "What must a worker do in the first 24 hours after an incident?",
+    "expected_answer": "The documents set no universal 24-hour rule; notify the supervisor as soon as practicable and follow site procedures and any legal deadline.",
+    "answerable": true,
+    "answer": "The safety documents state that there is no universal requirement to report an incident within the first 24 hours; the site team should follow its own internal reporting timeline specified in its procedures. [03_incident_reporting.pdf, p.1]",
+    "latency_ms": 42263
+  },
+  {
+    "id": 4,
+    "question": "Can a fall-arrest harness be used instead of guardrails?",
+    "expected_answer": "No, not where collective protection such as guardrails is reasonably practicable.",
+    "answerable": true,
+    "answer": "No. The safety documents explicitly state that a fall-arrest harness is not a substitute for guardrails where collective protection is reasonably practicable, and that a harness cannot replace guardrails in every situation. [01_working_at_height.pdf, p.2]",
+    "latency_ms": 13818
+  },
+  {
+    "id": 5,
+    "question": "What must be in place before a worker uses fall-arrest equipment?",
+    "expected_answer": "Trained workers, inspected equipment, and a workable rescue plan.",
+    "answerable": true,
+    "answer": "Workers who use fall-arrest equipment must be trained, equipment must be inspected, and a workable rescue plan must be in place before the task starts. [01_working_at_height.pdf, p.1]",
+    "latency_ms": 14241
+  },
+  {
+    "id": 6,
+    "question": "Who should erect, alter and dismantle scaffolds?",
+    "expected_answer": "Trained and authorized personnel.",
+    "answerable": true,
+    "answer": "Trained and authorized personnel. [04_scaffold_safety.pdf, p.1]",
+    "latency_ms": 20913
+  },
+  {
+    "id": 7,
+    "question": "What information should be recorded when an incident happens?",
+    "expected_answer": "Date, time, location, people involved, witnesses, equipment, the task being performed, and a factual description of what happened.",
+    "answerable": true,
+    "answer": "The information that should be recorded when an incident happens includes the date, time, location, people involved, witnesses, equipment, task being performed, and a factual description of what happened. [03_incident_reporting.pdf, p.1]",
+    "latency_ms": 7884
+  },
+  {
+    "id": 8,
+    "question": "What should be done with damaged PPE?",
+    "expected_answer": "Remove it from service until assessed and replaced or repaired by an authorized person.",
+    "answerable": true,
+    "answer": "Remove damaged PPE from service until it has been assessed and replaced or repaired by an authorized person. [02_personal_protective_equipment.pdf, p.2]",
+    "latency_ms": 6684
+  },
+  {
+    "id": 9,
+    "question": "What is the CEO's salary?",
+    "expected_answer": "I could not find this in the safety documents.",
+    "answerable": false,
+    "answer": "I could not find this in the safety documents.",
+    "latency_ms": 4876
+  },
+  {
+    "id": 10,
+    "question": "How much does a hard hat cost?",
+    "expected_answer": "I could not find this in the safety documents.",
+    "answerable": false,
+    "answer": "I could not find this in the safety documents.",
+    "latency_ms": 7385
+  }
+]
